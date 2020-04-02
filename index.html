@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="https://use.typekit.net/ohz2msm.css">
+		<link rel="stylesheet" href="css/main.css">
+		<title>Monster Mixer</title>
+	</head>
+
+	<body>
+
+		<main>
+
+			<section class="container">
+
+				<section class="header">
+					<h1>Monster Mixer</h1>
+				</section>
+
+				<div class="sub-titles">
+					<h3>Stage</h3>
+					<h3>Line Up</h3>
+				</div>
+
+
+				<div class="music-board">
+
+					<div class="stage">
+						<div class="drop-zone a1"></div>
+						<div class="drop-zone b1"></div>
+						<div class="drop-zone c1"></div>
+						<div class="drop-zone d1"></div>
+						<div class="drop-zone a2"></div>
+						<div class="drop-zone b2"></div>
+						<div class="drop-zone c2"></div>
+						<div class="drop-zone d2"></div>
+						<div class="drop-zone a3"></div>
+						<div class="drop-zone b3"></div>
+						<div class="drop-zone c3"></div>
+						<div class="drop-zone d3"></div>
+						<div class="drop-zone a4"></div>
+						<div class="drop-zone b4"></div>
+						<div class="drop-zone c4"></div>
+						<div class="drop-zone d4"></div>
+					</div>
+
+					<div class="lineUp">
+						<div class="drag-zone" id="H1zone"><img class="drop-image" src="images/H1.svg" alt="HipHop Singer" id="H1" draggable></div>
+						<div class="drag-zone" id="R1zone"><img class="drop-image" src="images/R1.svg" alt="Rock Singer" id="R1" draggable></div>
+						<div class="drag-zone" id="J1zone"><img class="drop-image" src="images/J1.svg" alt="Jpop Singer" id="J1" draggable></div>
+						<div class="drag-zone" id="E1zone"><img class="drop-image" src="images/E1.svg" alt="Elec Signer" id="E1" draggable></div>
+						<div class="drag-zone" id="H2zone"><img class="drop-image" src="images/H2.svg" alt="HipHop Guitar" id="H2" draggable></div>
+						<div class="drag-zone" id="R2zone"><img class="drop-image" src="images/R2.svg" alt="Rock Guitar" id="R2" draggable></div>
+						<div class="drag-zone" id="J2zone"><img class="drop-image" src="images/J2.svg" alt="Jpop Guitar" id="J2" draggable></div>
+						<div class="drag-zone" id="E2zone"><img class="drop-image" src="images/E2.svg" alt="Elec Guitar" id="E2" draggable></div>
+						<div class="drag-zone" id="H3zone"><img class="drop-image" src="images/H3.svg" alt="HipHop Drums" id="H3" draggable></div>
+						<div class="drag-zone" id="R3zone"><img class="drop-image" src="images/R3.svg" alt="Rock Drums" id="R3" draggable></div>
+						<div class="drag-zone" id="J3zone"><img class="drop-image" src="images/J3.svg" alt="Jpop Drums" id="J3" draggable></div>
+						<div class="drag-zone" id="E3zone"><img class="drop-image" src="images/E3.svg" alt="Elec Drums" id="E3" draggable></div>
+						<div class="drag-zone" id="H4zone"><img class="drop-image" src="images/H4.svg" alt="HipHop DJ" id="H4" draggable></div>
+						<div class="drag-zone" id="R4zone"><img class="drop-image" src="images/R4.svg" alt="Rock DJ" id="R4" draggable></div>
+						<div class="drag-zone" id="J4zone"><img class="drop-image" src="images/J4.svg" alt="Jpop DJ" id="J4" draggable></div>
+						<div class="drag-zone" id="E4zone"><img class="drop-image" src="images/E4.svg" alt="Elec DJ" id="E4" draggable></div>
+					</div>
+				</div>
+
+				<div class="reset-button">
+					<button class="reset">Reset</button>
+				</div>
+
+			</section>
+
+			<section class="lightbox">
+				<div class="pop-up">
+					<h1>Monster Mixer Guide</h1>
+					<p>Drag characters from : Line Up</p>
+					<p>Drop them into an empty slot on : Stage</p>
+					<p>To start again press : Reset</p>
+			    	<button class="close-lightbox">Play</button>
+				</div>
+	    	</section>
+
+		</main>
+	</body>
+
+	<script src="js/main.js"></script>
+
+</html>
